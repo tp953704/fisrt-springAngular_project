@@ -1,0 +1,6 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://tp953704:lplpevangy8@cluster0.yt4ws.mongodb.net/springbootproject?retryWrites=true&w=majority
+ 
+      
