@@ -5,7 +5,9 @@ import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.access.Users;
+import com.example.access.User;
+
+
 
 @RestController
 public class UserController {
@@ -15,7 +17,7 @@ public class UserController {
 	
 	@RequestMapping("/getUser")
 	public String addUser() {
-		Users u = new Users();
+		User u = new User();
 		u.setId(123);
 		u.setPassword("lplplp");
 		u.setUsername("Evan");
